@@ -27,7 +27,7 @@ publisher = pubsub_v1.PublisherClient()
 topic_path = publisher.topic_path(os.getenv("GCP_PROJECT"), PUBSUB_TOPIC)
 
 class LeadAgent(Agent):
-    """Collects and outreaches to leads."""
+    """Collects leads and performs outreach."""
 
     @tool(name="scrape_leads")
     def scrape_leads(self, query: str, limit: int = 50) -> List[Dict]:
