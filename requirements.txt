@@ -1,0 +1,13 @@
+python-dotenv
+openai
+openai-agents
+google-cloud-aiplatform
+google-adk
+litellm
+requests
+beautifulsoup4
+# pandas # If you use it for data manipulation in tools
+# google-api-python-client # For specific Google service APIs
+# google-cloud-storage # If using Google Cloud Storage
+# google-cloud-firestore # If using Firestore for memory/state
+# Add any other libraries your custom tools might need
